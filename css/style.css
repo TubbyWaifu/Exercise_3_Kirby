@@ -1,0 +1,40 @@
+h1 {
+    font-size: 60px;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: blueviolet;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(180deg, #FFACF2 0%, #FDA641 100%);
+}
+
+.kirby-image {
+    margin-bottom: 20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mood-box {
+display: flex;
+}
+
+.box {
+    cursor: pointer;
+    padding: 20px;
+    margin: 0 10px;
+    border: 5px solid white;
+    background-color: pink;
+    border-radius: 5px;
+}
